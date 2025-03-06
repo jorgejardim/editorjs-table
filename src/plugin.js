@@ -25,6 +25,7 @@ import { IconTable, IconTableWithHeadings, IconTableWithoutHeadings, IconStretch
  * @property {TableConfig} config - user config for Tool
  * @property {object} api - Editor.js API
  * @property {boolean} readOnly - read-only mode flag
+ * @property {object} [block] - referência ao bloco do Editor.js (opcional)
  */
 /**
  * @typedef {import('@editorjs/editorjs').PasteEvent} PasteEvent
